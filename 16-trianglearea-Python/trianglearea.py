@@ -6,4 +6,6 @@
 
 def trianglearea(s1, s2, s3):
 	# your code goes here
-	pass
+	spermi = float((s1+s2+s3)/2)
+	area = float((spermi*(spermi-s1)*(spermi-s2)*(spermi-s3))**0.5)
+	return area
