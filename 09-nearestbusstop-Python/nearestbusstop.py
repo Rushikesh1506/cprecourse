@@ -8,4 +8,8 @@
 
 
 def fun_nearestbusstop(street):
-	return -1
+	k = 1
+	while(k>=0):
+		if street <= 4*k:
+			return 4*(k-1)
+		k = k+2
